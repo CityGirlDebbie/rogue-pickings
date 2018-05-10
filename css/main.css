@@ -1,0 +1,169 @@
+/***BASE STYLES
+
+***head***
+1200px grid
+background: white
+Header font: Montserrat 14pt
+Nav: 77a466
+Rogue Pickings: 23px color 77a466
+border: 77a466
+top section: myriad pro*****/
+
+
+body {
+  font-family:'Montserrat', sans-serif;
+  color:black;
+  margin-left:40px;
+  background: white;
+}
+body span {
+  text-transform: capitalize;
+  font-style: italic;
+  color: #77a466;
+}
+
+/**grid**/
+header {
+  width:1200px;
+  height: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:left;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+header li {
+  display:inline-block;
+  float: left;
+  margin-right: 10px;
+
+}
+
+
+.third-width
+  .section-one,
+  .section-two,
+  .section-three{
+  width: 30%;
+  height: auto;
+  float: left;
+  border-top: 3px solid #77a466;
+  padding-left: 10px;
+  overflow:auto;
+
+}
+.third-width a p {
+  padding-left: 10px;
+}
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-left:40px;
+  margin-right:20px;
+}
+/**header and nav**/
+header  h1 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: left;
+  color:black;
+  text-transform:uppercase;
+
+
+}
+/***header span {
+  color:#77a466;
+  text-transform:uppercase;
+}***/
+
+header nav ul li {
+  color: #77a466;
+  text-transform:uppercase;
+  display: inline;
+  float: left;
+
+}
+
+
+.main-image img {
+  margin-left: 40px;
+  margin-right: 20px;
+  border-bottom:3px solid #77a466;
+}
+
+.welcome h3 {
+  margin-left:40px;
+  color:#77a466;
+  font-size: 16px;
+  text-align: left;
+
+  text-transform:uppercase;
+}
+.welcome p {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: black;
+  text-align:left;
+}
+
+
+.third-width .section-one h4{
+
+  margin-left:40px;
+  text-align:left;
+  text-transform:capitalize;
+
+}
+.third-width .section-one p {
+  margin-left:40px;
+    color:#77a466;
+  text-transform:capitalize;
+}
+.third-width .section-two h4{
+
+  text-align:left;
+  text-transform: capitalize;
+
+}
+.third-width .section-two p {
+  text-align:left;
+
+
+}
+.third-width .section-three h4{
+
+  text-align: left;
+  text-transform: capitalize;
+
+}
+.third-width .section-three p{
+  text-align: left;
+  text-transform:capitalize;
+}
+footer {
+
+  clear:both;
+}
+/***footer span {
+  font-style: oblique;
+  color: #77a466;
+}***/
